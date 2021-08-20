@@ -1,0 +1,25 @@
+========================================================================================================================================
+
+-in c , char and int are basically the same thing 
+-- if you wanna print the character ch , prinf("%c", ch);
+-- if you wanna printf the ascii number , printf("%d",ch);
+-Think of it as the full moon and the half moon, it's two forms of the same entity
+- if you have an input such as echo "blablablabl" | ./yourfile.c and you don't know the length of the input i would suggest 
+-- while ((ch = getchar()) != EOF) (I don't know if that'S a good advice, but that'S what I do)
+-if you need to treat a group of caracters, treat their ascii self(then again, i'm no expert... )
+-keep it simple, great advice I got from a great friend <333
+
+========================================================================================================================================
+
+~~How to make a makefile(with one file) ~~
+
+Inside your makefile , you will write: 
+
+yourfile1: 
+	gcc -o yourfile yourfile.c
+	echo "myexampletest" | ./yourfile
+
+
+
+Final advice : 
+-Never ever ever give up . I know it's not easy, there may be tears , anger, desire to give up along the way but don't, there's a light at the end of the tunnel , brighter than will ever shine the sun, and you'll get there. 
